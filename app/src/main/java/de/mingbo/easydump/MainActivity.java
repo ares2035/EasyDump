@@ -11,6 +11,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -270,6 +271,10 @@ public class MainActivity extends Activity implements IEvent {
         start.setEnabled(true);
         stop.setEnabled(false);
         checkInstallState();
+        Toast.makeText(App.get()
+                , String.format(App.get().getString(R.string.success_log_saved), Configuration.appDir())
+                , Toast.LENGTH_SHORT)
+                .show();
     }
 
     public void onDumpException() {

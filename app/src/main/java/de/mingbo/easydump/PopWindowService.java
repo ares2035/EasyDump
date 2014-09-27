@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.Toast;
 
 import butterknife.ButterKnife;
 
@@ -190,6 +191,10 @@ public class PopWindowService extends Service implements IEvent {
     public void onDumpStopped() {
         start.setEnabled(true);
         stop.setEnabled(false);
+        Toast.makeText(App.get()
+                , String.format(App.get().getString(R.string.success_log_saved), Configuration.appDir())
+                , Toast.LENGTH_SHORT)
+                .show();
     }
 
     @Override

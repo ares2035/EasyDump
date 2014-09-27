@@ -26,5 +26,6 @@
     <string name="title_not_installed">还没安装抓包工具呢</string>
     <string name="alert_dialog_title">温馨提示</string>
     <string name="alert_dialog_ok_button">好的</string>
+    <string name="success_log_saved">已成功保存至%1$s</string>
 
 </resources>
