@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyDump</string>
+    <string name="main_activity_install_button_text_installed">妥妥的</string>
+    <string name="main_activity_install_button_text_not_installed">点击安装</string>
+    <string name="error_install_tcp_dump_failed">安装失败, 请检查设备或权限</string>
+    <string name="success_install_bin_file">安装成功</string>
+    <string name="error_install_log_folder_failed">无法创建日志目录，请检查设备或权限</string>
+    <string name="error_dump_exception">抓包进程异常，请重启后再试</string>
+    <string name="error_stop_dump_exception">停止抓包进程时发生异常</string>
+    <string name="error_no_dump_process">没有发现可以停止的抓包进程</string>
+    <string name="main_activity_window_button_enable">开启悬浮窗</string>
+    <string name="main_activity_start_button_text">开始抓包</string>
+    <string name="main_activity_stop_button_text">停止抓包</string>
+    <string name="error_not_installed">还未安装抓包工具</string>
+    <string name="pop_window_resume_button_text">还原</string>
+    <string name="pop_window_stop_button_text">停止</string>
+    <string name="pop_window_start_button_text">开始</string>
+    <string name="pop_window_hide_button_text">隐藏</string>
+    <string name="main_activity_window_button_unenable">关闭悬浮窗</string>
+    <string name="dump_service_running">正在抓包</string>
+    <string name="running_illegal">抓包程序貌似有些异常，请停止后再试</string>
+    <string name="already_run">已经再抓包了</string>
+    <string name="info_miui_alert">MIUI 用户请到应用程序，开启EasyDump的悬浮窗选项，以保证程序正常工作</string>
+    <string name="title_not_installed">还没安装抓包工具呢</string>
+    <string name="alert_dialog_title">温馨提示</string>
+    <string name="alert_dialog_ok_button">好的</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="32dp"
+        android:textSize="10sp"
+        android:text="@string/pop_window_start_button_text" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="32dp"
+        android:textSize="10sp"
+        android:text="@string/pop_window_stop_button_text" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="32dp"
+        android:textSize="10sp"
+        android:text="@string/pop_window_resume_button_text" />
+
+    <Button
+        android:id="@+id/hide"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="32dp"
+        android:textSize="10sp"
+        android:text="@string/pop_window_hide_button_text" />
+
+</LinearLayout>
